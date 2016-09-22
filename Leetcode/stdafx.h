@@ -11,6 +11,9 @@
 #include <tchar.h>
 #include <algorithm>
 #include <vector>
-
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
 
 // TODO: reference additional headers your program requires here

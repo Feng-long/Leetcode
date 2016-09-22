@@ -1,3 +1,8 @@
+/*
+set the current point as the end the the longest increase sequence
+*/
+
+
 #include "stdafx.h"
 using namespace std;
 class Solution {
