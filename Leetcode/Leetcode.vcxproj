@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="104_maximum_depth_of Binary_Tree.cpp" />
+    <ClCompile Include="120_triangle.cpp" />
     <ClCompile Include="122_Best_Time _to_Buy_and_Sell_Stock.cpp" />
     <ClCompile Include="136_Single_Number.cpp" />
     <ClCompile Include="189_Rotate_Array.cpp" />
@@ -97,6 +98,7 @@
     <ClCompile Include="345_reverse_vowels_of_a_string.cpp" />
     <ClCompile Include="349_intersection_of_two_arrays.cpp" />
     <ClCompile Include="383_ransom_note.cpp" />
+    <ClCompile Include="64_Minimum_Path_Sum.cpp" />
     <ClCompile Include="66_plus_one.cpp" />
     <ClCompile Include="67_add_binary.cpp" />
     <ClCompile Include="70_Climbing_Stairs.cpp" />
