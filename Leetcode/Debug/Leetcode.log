@@ -1,40 +1,172 @@
-﻿Build started 9/22/2016 6:22:29 PM.
-     1>Project "C:\Users\v-fxie\Dropbox\code\Leetcode\Leetcode\Leetcode.vcxproj" on node 2 (Build target(s)).
+﻿Build started 3/21/2017 6:15:58 PM.
+     1>Project "C:\Users\v-fxie\Dropbox\code\Leetcode\Leetcode\Leetcode.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Leetcode.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 120_triangle.cpp Leetcode.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Leetcode.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /FS stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Leetcode.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /FS 100_same_tree.cpp 102_binary_tree_level_order_traversal.cpp 103_binary_tree_zigzag_level_order_traversal.cpp "104_maximum_depth_of Binary_Tree.cpp" 105_construct_binary_tree_from_preorder_and_inorder_traversal.cpp 107_binary_tree_level_order_traversal_ii.cpp 120_triangle.cpp 122_BestTimeToBuyandSellStockII.cpp "122_Best_Time _to_Buy_and_Sell_Stock.cpp" 123BestTimeToBuyandSellStock.cpp 125_Valid_Palindrome.cpp 127_word_ladder.cpp 12_integer_to_roman.cpp 136_Single_Number.cpp 139_Word_break.cpp 13_roman_to_integer.cpp 143_reorder_list.cpp 145_binary_tree_postorder_traversal.cpp 147_insertion_sort_list.cpp 14_Longest_common_prefix.cpp 189_Rotate_Array.cpp 198_House_Robber.cpp 1_two_sum.cpp 20_Valid_Parentheses.cpp 217_Contains_Duplicate.cpp 219_Contains_Duplicate_II.cpp 21_merge_two_sorted_lists.cpp 23_merge_k_sorted_lists.cpp 26_Remove_Duplicates_From_Sorted_Array.cpp "28_Implement_strStr().cpp" 300_Longest_Increasing_Subsequence.cpp 303_Range_Sum_Query.cpp 33_Search_in_Rotated_Sorted_Array.cpp 344_reverse_string.cpp 345_reverse_vowels_of_a_string.cpp 349_intersection_of_two_arrays.cpp 34_search_for_a_range.cpp 35_search_insert_positioncpp.cpp 383_ransom_note.cpp 38_count_and_say.cpp 49_group_anagrams.cpp 516_longest_palindromic_subsequence.cpp 53_maximum_subarray.cpp 58_length_of_last_word.cpp 61_rotate_list.cpp 64_Minimum_Path_Sum.cpp 65_valid_number.cpp 66_plus_one.cpp 67_add_binary.cpp 70_Climbing_Stairs.cpp 74_search_a_2d_matrixcpp.cpp 75_sort_colors.cpp 80_Remove_Duplicate_From_Sorted_ArrayII.cpp 88_Merge_Sorted_Array.cpp 123_BestTimeToBuyandSellStockIII.cpp 8_string_to_integer.cpp 91_Decode_Ways.cpp 94_binary_tree_inorder_traversal.cpp Leetcode.cpp 19_Remove_Nth_Node_From_End_of_List.cpp
+         19_Remove_Nth_Node_From_End_of_List.cpp
          Leetcode.cpp
-     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\120_triangle.cpp(15): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\120_triangle.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+         94_binary_tree_inorder_traversal.cpp
+         91_Decode_Ways.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\91_decode_ways.cpp(18): warning C4018: '<=' : signed/unsigned mismatch
+         8_string_to_integer.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\8_string_to_integer.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\8_string_to_integer.cpp(39): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+         123_BestTimeToBuyandSellStockIII.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\123_besttimetobuyandsellstockiii.cpp(15): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\123_besttimetobuyandsellstockiii.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+         88_Merge_Sorted_Array.cpp
+         80_Remove_Duplicate_From_Sorted_ArrayII.cpp
+         75_sort_colors.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\75_sort_colors.cpp(8): warning C4018: '<' : signed/unsigned mismatch
+         74_search_a_2d_matrixcpp.cpp
+         70_Climbing_Stairs.cpp
+         67_add_binary.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\67_add_binary.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\67_add_binary.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+         66_plus_one.cpp
+         65_valid_number.cpp
+         64_Minimum_Path_Sum.cpp
+         61_rotate_list.cpp
+         58_length_of_last_word.cpp
+         53_maximum_subarray.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\53_maximum_subarray.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+         516_longest_palindromic_subsequence.cpp
+         49_group_anagrams.cpp
+         Generating Code...
+         Compiling...
+         38_count_and_say.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\38_count_and_say.cpp(17): warning C4018: '<' : signed/unsigned mismatch
+         383_ransom_note.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\383_ransom_note.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+         35_search_insert_positioncpp.cpp
+         34_search_for_a_range.cpp
+         349_intersection_of_two_arrays.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\349_intersection_of_two_arrays.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\349_intersection_of_two_arrays.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+         345_reverse_vowels_of_a_string.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\345_reverse_vowels_of_a_string.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\345_reverse_vowels_of_a_string.cpp(21): warning C4018: '<' : signed/unsigned mismatch
+         344_reverse_string.cpp
+         33_Search_in_Rotated_Sorted_Array.cpp
+         303_Range_Sum_Query.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\303_range_sum_query.cpp(9): warning C4018: '<' : signed/unsigned mismatch
+         300_Longest_Increasing_Subsequence.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\300_longest_increasing_subsequence.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+         28_Implement_strStr().cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\28_implement_strstr().cpp(12): warning C4018: '<' : signed/unsigned mismatch
+         26_Remove_Duplicates_From_Sorted_Array.cpp
+         23_merge_k_sorted_lists.cpp
+         21_merge_two_sorted_lists.cpp
+         219_Contains_Duplicate_II.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\219_contains_duplicate_ii.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+         217_Contains_Duplicate.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\217_contains_duplicate.cpp(9): warning C4018: '<' : signed/unsigned mismatch
+         20_Valid_Parentheses.cpp
+         1_two_sum.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\1_two_sum.cpp(9): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\1_two_sum.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+         198_House_Robber.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\198_house_robber.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+         189_Rotate_Array.cpp
+         Generating Code...
+         Compiling...
+         14_Longest_common_prefix.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\14_longest_common_prefix.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\14_longest_common_prefix.cpp(15): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\14_longest_common_prefix.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+         147_insertion_sort_list.cpp
+         145_binary_tree_postorder_traversal.cpp
+         143_reorder_list.cpp
+         13_roman_to_integer.cpp
+         139_Word_break.cpp
+         136_Single_Number.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\136_single_number.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+         12_integer_to_roman.cpp
+         127_word_ladder.cpp
+         125_Valid_Palindrome.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\125_valid_palindrome.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+         123BestTimeToBuyandSellStock.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\123besttimetobuyandsellstock.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+         122_Best_Time _to_Buy_and_Sell_Stock.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\122_best_time _to_buy_and_sell_stock.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+         122_BestTimeToBuyandSellStockII.cpp
+     1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\122_besttimetobuyandsellstockii.cpp(12): warning C4018: '<' : signed/unsigned mismatch
          120_triangle.cpp
      1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\120_triangle.cpp(15): warning C4018: '<' : signed/unsigned mismatch
      1>c:\users\v-fxie\dropbox\code\leetcode\leetcode\120_triangle.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+         107_binary_tree_level_order_traversal_ii.cpp
+         105_construct_binary_tree_from_preorder_and_inorder_traversal.cpp
+         104_maximum_depth_of Binary_Tree.cpp
+         103_binary_tree_zigzag_level_order_traversal.cpp
+         102_binary_tree_level_order_traversal.cpp
+         100_same_tree.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\v-fxie\Dropbox\code\Leetcode\Debug\Leetcode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\v-fxie\Dropbox\code\Leetcode\Debug\Leetcode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\v-fxie\Dropbox\code\Leetcode\Debug\Leetcode.lib" /MACHINE:X86 "Debug\104_maximum_depth_of Binary_Tree.obj"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\v-fxie\Dropbox\code\Leetcode\Debug\Leetcode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\v-fxie\Dropbox\code\Leetcode\Debug\Leetcode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\v-fxie\Dropbox\code\Leetcode\Debug\Leetcode.lib" /MACHINE:X86 Debug\100_same_tree.obj
+         Debug\102_binary_tree_level_order_traversal.obj
+         Debug\103_binary_tree_zigzag_level_order_traversal.obj
+         "Debug\104_maximum_depth_of Binary_Tree.obj"
+         Debug\105_construct_binary_tree_from_preorder_and_inorder_traversal.obj
+         Debug\107_binary_tree_level_order_traversal_ii.obj
          Debug\120_triangle.obj
+         Debug\122_BestTimeToBuyandSellStockII.obj
          "Debug\122_Best_Time _to_Buy_and_Sell_Stock.obj"
+         Debug\123BestTimeToBuyandSellStock.obj
+         Debug\125_Valid_Palindrome.obj
+         Debug\127_word_ladder.obj
+         Debug\12_integer_to_roman.obj
          Debug\136_Single_Number.obj
+         Debug\139_Word_break.obj
+         Debug\13_roman_to_integer.obj
+         Debug\143_reorder_list.obj
+         Debug\145_binary_tree_postorder_traversal.obj
+         Debug\147_insertion_sort_list.obj
+         Debug\14_Longest_common_prefix.obj
          Debug\189_Rotate_Array.obj
          Debug\198_House_Robber.obj
          Debug\1_two_sum.obj
+         Debug\20_Valid_Parentheses.obj
          Debug\217_Contains_Duplicate.obj
          Debug\219_Contains_Duplicate_II.obj
+         Debug\21_merge_two_sorted_lists.obj
+         Debug\23_merge_k_sorted_lists.obj
+         Debug\26_Remove_Duplicates_From_Sorted_Array.obj
+         "Debug\28_Implement_strStr().obj"
          Debug\300_Longest_Increasing_Subsequence.obj
          Debug\303_Range_Sum_Query.obj
+         Debug\33_Search_in_Rotated_Sorted_Array.obj
          Debug\344_reverse_string.obj
          Debug\345_reverse_vowels_of_a_string.obj
          Debug\349_intersection_of_two_arrays.obj
+         Debug\34_search_for_a_range.obj
+         Debug\35_search_insert_positioncpp.obj
          Debug\383_ransom_note.obj
+         Debug\38_count_and_say.obj
+         Debug\49_group_anagrams.obj
+         Debug\516_longest_palindromic_subsequence.obj
+         Debug\53_maximum_subarray.obj
+         Debug\58_length_of_last_word.obj
+         Debug\61_rotate_list.obj
          Debug\64_Minimum_Path_Sum.obj
+         Debug\65_valid_number.obj
          Debug\66_plus_one.obj
          Debug\67_add_binary.obj
          Debug\70_Climbing_Stairs.obj
+         Debug\74_search_a_2d_matrixcpp.obj
+         Debug\75_sort_colors.obj
+         Debug\80_Remove_Duplicate_From_Sorted_ArrayII.obj
          Debug\88_Merge_Sorted_Array.obj
+         Debug\123_BestTimeToBuyandSellStockIII.obj
+         Debug\8_string_to_integer.obj
+         Debug\91_Decode_Ways.obj
+         Debug\94_binary_tree_inorder_traversal.obj
          Debug\Leetcode.obj
+         Debug\19_Remove_Nth_Node_From_End_of_List.obj
          Debug\stdafx.obj
          Leetcode.vcxproj -> C:\Users\v-fxie\Dropbox\code\Leetcode\Debug\Leetcode.exe
-     1>Done Building Project "C:\Users\v-fxie\Dropbox\code\Leetcode\Leetcode\Leetcode.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\v-fxie\Dropbox\code\Leetcode\Leetcode\Leetcode.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.51
+Time Elapsed 00:00:05.27

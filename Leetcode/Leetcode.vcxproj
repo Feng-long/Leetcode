@@ -52,6 +52,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -83,31 +84,73 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="100_same_tree.cpp" />
+    <ClCompile Include="102_binary_tree_level_order_traversal.cpp" />
+    <ClCompile Include="103_binary_tree_zigzag_level_order_traversal.cpp" />
     <ClCompile Include="104_maximum_depth_of Binary_Tree.cpp" />
+    <ClCompile Include="105_construct_binary_tree_from_preorder_and_inorder_traversal.cpp" />
+    <ClCompile Include="107_binary_tree_level_order_traversal_ii.cpp" />
     <ClCompile Include="120_triangle.cpp" />
+    <ClCompile Include="122_BestTimeToBuyandSellStockII.cpp" />
     <ClCompile Include="122_Best_Time _to_Buy_and_Sell_Stock.cpp" />
+    <ClCompile Include="123BestTimeToBuyandSellStock.cpp" />
+    <ClCompile Include="125_Valid_Palindrome.cpp" />
+    <ClCompile Include="127_word_ladder.cpp" />
+    <ClCompile Include="12_integer_to_roman.cpp" />
     <ClCompile Include="136_Single_Number.cpp" />
+    <ClCompile Include="139_Word_break.cpp" />
+    <ClCompile Include="13_roman_to_integer.cpp" />
+    <ClCompile Include="143_reorder_list.cpp" />
+    <ClCompile Include="145_binary_tree_postorder_traversal.cpp" />
+    <ClCompile Include="147_insertion_sort_list.cpp" />
+    <ClCompile Include="14_Longest_common_prefix.cpp" />
     <ClCompile Include="189_Rotate_Array.cpp" />
     <ClCompile Include="198_House_Robber.cpp" />
     <ClCompile Include="1_two_sum.cpp" />
+    <ClCompile Include="20_Valid_Parentheses.cpp" />
     <ClCompile Include="217_Contains_Duplicate.cpp" />
     <ClCompile Include="219_Contains_Duplicate_II.cpp" />
+    <ClCompile Include="21_merge_two_sorted_lists.cpp" />
+    <ClCompile Include="23_merge_k_sorted_lists.cpp" />
+    <ClCompile Include="26_Remove_Duplicates_From_Sorted_Array.cpp" />
+    <ClCompile Include="28_Implement_strStr().cpp" />
     <ClCompile Include="300_Longest_Increasing_Subsequence.cpp" />
     <ClCompile Include="303_Range_Sum_Query.cpp" />
+    <ClCompile Include="33_Search_in_Rotated_Sorted_Array.cpp" />
     <ClCompile Include="344_reverse_string.cpp" />
     <ClCompile Include="345_reverse_vowels_of_a_string.cpp" />
     <ClCompile Include="349_intersection_of_two_arrays.cpp" />
+    <ClCompile Include="34_search_for_a_range.cpp" />
+    <ClCompile Include="35_search_insert_positioncpp.cpp" />
     <ClCompile Include="383_ransom_note.cpp" />
+    <ClCompile Include="38_count_and_say.cpp" />
+    <ClCompile Include="49_group_anagrams.cpp" />
+    <ClCompile Include="516_longest_palindromic_subsequence.cpp" />
+    <ClCompile Include="53_maximum_subarray.cpp" />
+    <ClCompile Include="58_length_of_last_word.cpp" />
+    <ClCompile Include="61_rotate_list.cpp" />
     <ClCompile Include="64_Minimum_Path_Sum.cpp" />
+    <ClCompile Include="65_valid_number.cpp" />
     <ClCompile Include="66_plus_one.cpp" />
     <ClCompile Include="67_add_binary.cpp" />
     <ClCompile Include="70_Climbing_Stairs.cpp" />
+    <ClCompile Include="74_search_a_2d_matrixcpp.cpp" />
+    <ClCompile Include="75_sort_colors.cpp" />
+    <ClCompile Include="80_Remove_Duplicate_From_Sorted_ArrayII.cpp" />
     <ClCompile Include="88_Merge_Sorted_Array.cpp" />
+    <ClCompile Include="123_BestTimeToBuyandSellStockIII.cpp" />
+    <ClCompile Include="8_string_to_integer.cpp" />
+    <ClCompile Include="91_Decode_Ways.cpp" />
+    <ClCompile Include="94_binary_tree_inorder_traversal.cpp" />
     <ClCompile Include="Leetcode.cpp" />
+    <ClCompile Include="19_Remove_Nth_Node_From_End_of_List.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

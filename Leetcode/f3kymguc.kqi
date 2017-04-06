@@ -1,0 +1,17 @@
+// Leetcode.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+#include "88_Merge_Sorted_Array.cpp"
+int _tmain(int argc, _TCHAR* argv[])
+{
+	Solution solu;
+	vector<int> str1 = {1,2,3,9,7};
+	vector<int> str2 = {4,5};
+
+	solu.merge(str1, 5, str2, 2);
+	
+	return 0;
+}
+
