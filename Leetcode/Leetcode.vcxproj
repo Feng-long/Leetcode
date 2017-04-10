@@ -97,6 +97,7 @@
     <ClCompile Include="125_Valid_Palindrome.cpp" />
     <ClCompile Include="127_word_ladder.cpp" />
     <ClCompile Include="12_integer_to_roman.cpp" />
+    <ClCompile Include="134_gas_station.cpp" />
     <ClCompile Include="136_Single_Number.cpp" />
     <ClCompile Include="139_Word_break.cpp" />
     <ClCompile Include="13_roman_to_integer.cpp" />
@@ -113,7 +114,9 @@
     <ClCompile Include="21_merge_two_sorted_lists.cpp" />
     <ClCompile Include="23_merge_k_sorted_lists.cpp" />
     <ClCompile Include="26_Remove_Duplicates_From_Sorted_Array.cpp" />
+    <ClCompile Include="27_remove_element.cpp" />
     <ClCompile Include="28_Implement_strStr().cpp" />
+    <ClCompile Include="2_add_two_numbers.cpp" />
     <ClCompile Include="300_Longest_Increasing_Subsequence.cpp" />
     <ClCompile Include="303_Range_Sum_Query.cpp" />
     <ClCompile Include="33_Search_in_Rotated_Sorted_Array.cpp" />

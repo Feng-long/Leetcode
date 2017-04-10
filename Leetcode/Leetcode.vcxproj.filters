@@ -209,6 +209,15 @@
     <ClCompile Include="74_search_a_2d_matrixcpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="134_gas_station.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="27_remove_element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2_add_two_numbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
